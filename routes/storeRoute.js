@@ -2,7 +2,7 @@ import express from "express";
 import multer from "multer";
 import path from "path";
 import { auth } from "../middleware/auth.js";
-import { createStore } from "../controllers/createStoreController.js";
+import { createStore } from "../controllers/storeController.js";
 
 const router = express.Router();
 
